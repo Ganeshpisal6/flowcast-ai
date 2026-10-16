@@ -1,0 +1,5 @@
+Target,MAE,RMSE,R2,Model
+traffic_next_1h,243.6,421.08,0.9548,XGBoost
+traffic_next_2h,242.18,420.71,0.9548,XGBoost
+traffic_next_3h,243.05,416.79,0.9557,XGBoost
+traffic_next_4h,242.86,417.4,0.9557,XGBoost

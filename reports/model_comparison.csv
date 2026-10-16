@@ -1,0 +1,21 @@
+Target,Model,MAE,RMSE,R2
+traffic_next_1h,XGBoost,243.76,422.4,0.9545
+traffic_next_1h,Random Forest,257.48,444.28,0.9497
+traffic_next_1h,Decision Tree,271.25,464.51,0.945
+traffic_next_1h,Linear Regression,1670.92,1887.32,0.0924
+traffic_next_1h,Mean Baseline,1736.37,1982.85,-0.0018
+traffic_next_2h,XGBoost,243.06,421.6,0.9546
+traffic_next_2h,Random Forest,258.5,443.11,0.9499
+traffic_next_2h,Decision Tree,267.58,455.18,0.9471
+traffic_next_2h,Linear Regression,1684.85,1917.22,0.062
+traffic_next_2h,Mean Baseline,1734.97,1981.46,-0.0019
+traffic_next_3h,XGBoost,243.28,419.0,0.9552
+traffic_next_3h,Random Forest,257.48,446.95,0.9491
+traffic_next_3h,Decision Tree,267.62,458.73,0.9463
+traffic_next_3h,Linear Regression,1592.48,1855.76,0.122
+traffic_next_3h,Mean Baseline,1736.11,1982.26,-0.0018
+traffic_next_4h,XGBoost,242.9,419.21,0.9553
+traffic_next_4h,Random Forest,259.76,451.89,0.948
+traffic_next_4h,Decision Tree,270.9,465.35,0.9449
+traffic_next_4h,Linear Regression,1389.16,1689.49,0.2737
+traffic_next_4h,Mean Baseline,1737.96,1984.14,-0.0017
