@@ -32,13 +32,20 @@ for horizon in [1, 2, 3, 4]:
     print(f"\n{'=' * 45}")
     print(f"Training forecast: {horizon} hour(s) ahead")
 
-    # Split by timestamp order, not randomly.
+  
+    # Split chronologically and prevent future-target overlap.
     split = int(len(df) * 0.8)
-    train = df.iloc[:split]
+    test_start_time = df.iloc[split]["date_time"]
+
+    train = df.loc[
+        df["date_time"] + pd.Timedelta(hours=horizon) < test_start_time
+    ]
     test = df.iloc[split:]
 
     X_train, y_train = train[features], train[target]
     X_test, y_test = test[features], test[target]
+
+
 
     baseline = DummyRegressor(strategy="mean")
     baseline.fit(X_train, y_train)
