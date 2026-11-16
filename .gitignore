@@ -5,4 +5,13 @@ __pycache__/
 .env
 .streamlit/secrets.toml
 
-models/traffic_random_forest.joblib
+# Raw datasets not included in the public repository
+data/raw/pems04/
+data/raw/pems_bay/
+
+# Uncompressed PEMS04 processed datasets
+data/processed/pems04_30min_forecasting.csv
+data/processed/pems04_congestion_classification.csv
+
+# Large local Random Forest models
+models/pems04_random_forest_*.joblib
