@@ -1,0 +1,2 @@
+model,target,train_rows,test_rows,epochs,MAE,RMSE,R2
+NumPy Linear Regression (Gradient Descent),flow_next_30min,160000,173455,500,21.222064269004015,31.50558890118143,0.9594315517241765

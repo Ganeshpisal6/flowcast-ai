@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,train_rows,test_rows,training_method
+linear_svm,0.8919546856533395,0.5131970474349608,160000,173455,stratified_sample

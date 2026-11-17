@@ -156,3 +156,7 @@ To demonstrate multi-sensor traffic forecasting, machine learning model evaluati
 ## Author
 
 Ganesh Pisal
+
+## PRD Implementation Status
+
+See [PRD Implementation Status](reports/PRD_IMPLEMENTATION_STATUS.md) for implementation coverage, model results and limitations.
