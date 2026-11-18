@@ -134,7 +134,8 @@ flowcast-ai/
 │   ├── prepare_pems04_data.py
 │   ├── train_pems04_models.py
 │   ├── train_pems04_speed_models.py
-│   └── train_pems04_congestion.py
+│   ├── train_pems04_congestion.py
+│   └── train_pems04_random_forest_only.py
 ├── requirements.txt
 └── README.md
 ```
@@ -158,5 +159,7 @@ To demonstrate multi-sensor traffic forecasting, machine learning model evaluati
 Ganesh Pisal
 
 ## PRD Implementation Status
+
+See [Model Documentation](reports/MODEL_DOCUMENTATION.md) for algorithms, training and evaluation results.
 
 See [PRD Implementation Status](reports/PRD_IMPLEMENTATION_STATUS.md) for implementation coverage, model results and limitations.
